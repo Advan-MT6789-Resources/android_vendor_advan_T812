@@ -193,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin
 
 PRODUCT_PACKAGES += \
+    android.hardware.security.keymint-V3-ndk-mtk \
     gatekeeper.trustkernel \
     kmsetkey.trustkernel \
     libSoftGatekeeper \
