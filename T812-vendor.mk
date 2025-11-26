@@ -1761,7 +1761,7 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
 PRODUCT_PACKAGES += \
-    android.hardware.security.keymint-service.trustkernel \
-    android.hardware.security.secureclock-service.trustkernel \
-    android.hardware.security.sharedsecret-service.trustkernel \
-    manifest_cameraprovider
+    android.hardware.security.keymint-service.trustkernel.xml \
+    android.hardware.security.secureclock-service.trustkernel.xml \
+    android.hardware.security.sharedsecret-service.trustkernel.xml \
+    manifest_cameraprovider.xml
