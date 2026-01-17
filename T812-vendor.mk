@@ -620,6 +620,8 @@ PRODUCT_PACKAGES += \
     bf2553l_mipi_raw_tuning \
     bf2553lf_mipi_raw_IdxMgr \
     bf2553lf_mipi_raw_tuning \
+    bf2557f_mipi_raw_IdxMgr \
+    bf2557f_mipi_raw_tuning \
     c5590_mipi_raw_IdxMgr \
     c5590_mipi_raw_tuning \
     gc02m1_mipi_raw_IdxMgr \
@@ -691,6 +693,26 @@ PRODUCT_PACKAGES += \
     lib3a.n3d3a \
     lib3a.sensors.color \
     lib3a.sensors.flicker \
+    libCamera_bf2557fmipiraw_E2EHDR_Preview \
+    libCamera_bf2557fmipiraw_E2EHDR_Video \
+    libCamera_bf2557fmipiraw_Face_Capture \
+    libCamera_bf2557fmipiraw_Flash_Capture \
+    libCamera_bf2557fmipiraw_HDR_Capture \
+    libCamera_bf2557fmipiraw_HDR_Preview \
+    libCamera_bf2557fmipiraw_HDR_Reconfig_Preview \
+    libCamera_bf2557fmipiraw_HDR_Reconfig_Video \
+    libCamera_bf2557fmipiraw_HDR_Video \
+    libCamera_bf2557fmipiraw_N3D_Capture \
+    libCamera_bf2557fmipiraw_N3D_Preview \
+    libCamera_bf2557fmipiraw_N3D_Video \
+    libCamera_bf2557fmipiraw_P1_YUV \
+    libCamera_bf2557fmipiraw_Scene_Capture \
+    libCamera_bf2557fmipiraw_Scene_Capture_4cell \
+    libCamera_bf2557fmipiraw_Scene_Preview \
+    libCamera_bf2557fmipiraw_Scene_Preview_4k \
+    libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash \
+    libCamera_bf2557fmipiraw_Video_1080 \
+    libCamera_bf2557fmipiraw_Video_4k \
     libCamera_gc02m1mipiraw_E2EHDR_Preview \
     libCamera_gc02m1mipiraw_E2EHDR_Video \
     libCamera_gc02m1mipiraw_Face_Capture \
@@ -1780,6 +1802,8 @@ PRODUCT_PACKAGES += \
     vendor_lib64_bf2553l_mipi_raw_tuning_so \
     vendor_lib64_bf2553lf_mipi_raw_IdxMgr_so \
     vendor_lib64_bf2553lf_mipi_raw_tuning_so \
+    vendor_lib64_bf2557f_mipi_raw_IdxMgr_so \
+    vendor_lib64_bf2557f_mipi_raw_tuning_so \
     vendor_lib64_c5590_mipi_raw_IdxMgr_so \
     vendor_lib64_c5590_mipi_raw_tuning_so \
     vendor_lib64_gc02m1_mipi_raw_IdxMgr_so \
@@ -1851,6 +1875,26 @@ PRODUCT_PACKAGES += \
     vendor_lib64_lib3a_n3d3a_so \
     vendor_lib64_lib3a_sensors_color_so \
     vendor_lib64_lib3a_sensors_flicker_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_E2EHDR_Preview_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_E2EHDR_Video_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Face_Capture_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Flash_Capture_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_HDR_Capture_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_HDR_Preview_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_HDR_Reconfig_Preview_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_HDR_Reconfig_Video_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_HDR_Video_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_N3D_Capture_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_N3D_Preview_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_N3D_Video_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_P1_YUV_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Scene_Capture_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Scene_Capture_4cell_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Scene_Preview_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Scene_Preview_4k_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Video_1080_so \
+    vendor_lib64_libCamera_bf2557fmipiraw_Video_4k_so \
     vendor_lib64_libCamera_gc02m1mipiraw_E2EHDR_Preview_so \
     vendor_lib64_libCamera_gc02m1mipiraw_E2EHDR_Video_so \
     vendor_lib64_libCamera_gc02m1mipiraw_Face_Capture_so \

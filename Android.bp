@@ -10544,6 +10544,80 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "bf2557f_mipi_raw_IdxMgr",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/bf2557f_mipi_raw_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "bf2557f_mipi_raw_tuning",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/bf2557f_mipi_raw_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libCamera_bf2557fmipiraw_E2EHDR_Preview",
+                "libCamera_bf2557fmipiraw_E2EHDR_Video",
+                "libCamera_bf2557fmipiraw_Face_Capture",
+                "libCamera_bf2557fmipiraw_Flash_Capture",
+                "libCamera_bf2557fmipiraw_HDR_Capture",
+                "libCamera_bf2557fmipiraw_HDR_Preview",
+                "libCamera_bf2557fmipiraw_HDR_Reconfig_Preview",
+                "libCamera_bf2557fmipiraw_HDR_Reconfig_Video",
+                "libCamera_bf2557fmipiraw_HDR_Video",
+                "libCamera_bf2557fmipiraw_N3D_Capture",
+                "libCamera_bf2557fmipiraw_N3D_Preview",
+                "libCamera_bf2557fmipiraw_N3D_Video",
+                "libCamera_bf2557fmipiraw_P1_YUV",
+                "libCamera_bf2557fmipiraw_Scene_Capture",
+                "libCamera_bf2557fmipiraw_Scene_Capture_4cell",
+                "libCamera_bf2557fmipiraw_Scene_Preview",
+                "libCamera_bf2557fmipiraw_Scene_Preview_4k",
+                "libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash",
+                "libCamera_bf2557fmipiraw_Video_1080",
+                "libCamera_bf2557fmipiraw_Video_4k",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "c5590_mipi_raw_IdxMgr",
     owner: "advan",
     strip: {
@@ -12976,6 +13050,506 @@ cc_prebuilt_library_shared {
                 "libm",
                 "libdl",
                 "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_E2EHDR_Preview",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_E2EHDR_Preview.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_E2EHDR_Video",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_E2EHDR_Video.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Face_Capture",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Face_Capture.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Flash_Capture",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Flash_Capture.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_HDR_Capture",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Capture.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_HDR_Preview",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Preview.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_HDR_Reconfig_Preview",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Reconfig_Preview.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_HDR_Reconfig_Video",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Reconfig_Video.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_HDR_Video",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Video.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_N3D_Capture",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_N3D_Capture.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_N3D_Preview",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_N3D_Preview.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_N3D_Video",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_N3D_Video.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_P1_YUV",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_P1_YUV.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Scene_Capture",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Capture.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Scene_Capture_4cell",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Capture_4cell.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Scene_Preview",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Preview.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Scene_Preview_4k",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Preview_4k.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Video_1080",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Video_1080.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2557fmipiraw_Video_4k",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Video_4k.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
             ],
         },
     },
@@ -36351,6 +36925,7 @@ cc_prebuilt_library_shared {
                 "gc02m2_mipi_raw_IdxMgr",
                 "gc6153_mipi_raw_IdxMgr",
                 "gc030a_mipi_raw_IdxMgr",
+                "bf2557f_mipi_raw_IdxMgr",
                 "s5k5e8yx_mipi_raw_IdxMgr",
                 "ov5670_mipi_raw_IdxMgr",
                 "hi553_mipi_raw_IdxMgr",
@@ -42503,6 +43078,20 @@ install_symlink {
 }
 
 install_symlink {
+    name: "vendor_lib64_bf2557f_mipi_raw_IdxMgr_so",
+    soc_specific: true,
+    installed_location: "lib64/bf2557f_mipi_raw_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6789/bf2557f_mipi_raw_IdxMgr.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_bf2557f_mipi_raw_tuning_so",
+    soc_specific: true,
+    installed_location: "lib64/bf2557f_mipi_raw_tuning.so",
+    symlink_target: "/vendor/lib64/mt6789/bf2557f_mipi_raw_tuning.so",
+}
+
+install_symlink {
     name: "vendor_lib64_c5590_mipi_raw_IdxMgr_so",
     soc_specific: true,
     installed_location: "lib64/c5590_mipi_raw_IdxMgr.so",
@@ -42997,6 +43586,146 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/lib3a.sensors.flicker.so",
     symlink_target: "/vendor/lib64/mt6789/lib3a.sensors.flicker.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_E2EHDR_Preview_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_E2EHDR_Preview.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_E2EHDR_Preview.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_E2EHDR_Video_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_E2EHDR_Video.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_E2EHDR_Video.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Face_Capture_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Face_Capture.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Face_Capture.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Flash_Capture_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Flash_Capture.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Flash_Capture.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_HDR_Capture_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_HDR_Capture.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Capture.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_HDR_Preview_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_HDR_Preview.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Preview.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_HDR_Reconfig_Preview_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_HDR_Reconfig_Preview.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Reconfig_Preview.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_HDR_Reconfig_Video_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_HDR_Reconfig_Video.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Reconfig_Video.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_HDR_Video_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_HDR_Video.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_HDR_Video.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_N3D_Capture_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_N3D_Capture.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_N3D_Capture.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_N3D_Preview_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_N3D_Preview.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_N3D_Preview.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_N3D_Video_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_N3D_Video.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_N3D_Video.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_P1_YUV_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_P1_YUV.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_P1_YUV.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Scene_Capture_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Scene_Capture.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Capture.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Scene_Capture_4cell_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Scene_Capture_4cell.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Capture_4cell.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Scene_Preview_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Scene_Preview.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Preview.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Scene_Preview_4k_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Scene_Preview_4k.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Preview_4k.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Scene_Preview_ZSD_Flash.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Video_1080_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Video_1080.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Video_1080.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libCamera_bf2557fmipiraw_Video_4k_so",
+    soc_specific: true,
+    installed_location: "lib64/libCamera_bf2557fmipiraw_Video_4k.so",
+    symlink_target: "/vendor/lib64/mt6789/libCamera_bf2557fmipiraw_Video_4k.so",
 }
 
 install_symlink {
